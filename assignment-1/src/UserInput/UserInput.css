@@ -1,0 +1,24 @@
+.UserInput {
+
+    background-color: mediumpurple;
+    color:gold;
+}
+
+input {
+    color: rebeccapurple;
+    background-color: mediumorchid;
+}
+
+input:hover {
+    background-color: cornflowerblue;
+    color:navy;
+}
+
+p {
+color: gold;
+background-color: purple;
+}
+
+    p:hover {
+        background-color: cornflowerblue;
+    }
