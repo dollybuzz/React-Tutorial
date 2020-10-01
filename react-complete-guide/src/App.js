@@ -107,7 +107,7 @@ import Person from './Person/Person';
             });                                         //in functional based components, any updated state is not merged 
     }                                                   //with old state, it is replaced; therefore, old state data must be
                                                         //added manually or call the useState method multiple times
-    const [otherState, setOtherState] = userState('some other value');
+    const [otherState, setOtherState] = useState('some other value');
 
     console.log(personsState, otherState);
 
